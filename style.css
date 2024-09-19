@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --background-color: #9ec91e;
+    --a-color: #0000e6;
+    --score-text-color: #f2c244;
+    --rock-paper-scissor-color: #f0f0f0;
+}
+.game-container{
+    width: 40rem;
+    height: 100vh;
+    border: 1px solid black;
+    margin: auto;
+    background: var(--background-color);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.header p{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.header a{
+    color: var(--a-color);
+}
+.header span{
+    padding: 0 0.5rem;
+}
+
+.copyright p strong{
+    padding-right: 0.5rem;
+}
+
+.computer{
+    padding-bottom: 1rem;
+}
+.computer h3{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.computer-choice{
+    width: 7rem;
+    height: 8rem;
+    border: 2px dashed black;
+    margin: auto;
+}
+
+.score-text{
+    width: 40rem;
+    height: 3rem;
+    background: var(--score-text-color);
+    margin-bottom: 1rem;
+}
+
+.player{
+    padding-bottom: 1rem;
+}
+.player h3{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.player-choice-display{
+    width: 7rem;
+    height: 8rem;
+    border: 2px dashed black;
+    margin: auto;
+}
+
+.player-options{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.rock-paper-scissor{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 0.5rem;
+    background: var(--rock-paper-scissor-color);
+    cursor: pointer;
+}
+
+.rock-paper-scissor h4{
+    text-align: center;
+    /* padding-top: 5rem; */
+}
+
+.icon-div p{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+}
