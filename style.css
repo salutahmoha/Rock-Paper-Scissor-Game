@@ -3,9 +3,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
+body{
+    font-family: "Press Start 2P", sans-serif;
+}
 :root{
     --background-color: #9ec91e;
     --a-color: #0000e6;
@@ -28,8 +30,8 @@
 }
 
 .header p{
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 0.9rem;
+    font-weight: 400;
 }
 
 .header a{
@@ -48,10 +50,11 @@
 }
 .computer h3{
     text-align: center;
+    font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
 .computer-choice{
-    width: 7rem;
+    width: 8rem;
     height: 8rem;
     border: 2px dashed black;
     margin: auto;
@@ -74,10 +77,11 @@
 }
 .player h3{
     text-align: center;
+    font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
 .player-choice-display{
-    width: 7rem;
+    width: 8rem;
     height: 8rem;
     border: 2px dashed black;
     margin: auto;
@@ -97,8 +101,9 @@
     cursor: pointer;
 }
 
-.rock-paper-scissor h4{
+.rock-paper-scissor p{
     text-align: center;
+    font-size: 0.8rem;
     /* padding-top: 5rem; */
 }
 
@@ -109,7 +114,7 @@
 }
 
 .player-choice-display, .computer-choice{
-    font-size: 3rem;
+    font-size: 6rem;
     text-align: center;
-    padding-top: 1rem;
+    
 }
